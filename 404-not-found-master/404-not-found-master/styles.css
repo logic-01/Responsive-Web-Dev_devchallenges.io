@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+body{
+   font-family: 'Space Mono', monospace;
+   width: 1440px;
+   height: 1080px;
+}
+
+.top{
+   font-family: 'Inconsolata';
+   font-size: 24px;
+   margin-top: 40px;
+   margin-left:77px;
+   margin-right: 1230px;
+   color: #333333;
+   width: 133px;
+   height: 25px;
+   letter-spacing: -0.08em;
+}
+.content{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 200px;
+}
+
+.image{
+height: 414.2492370605469px;
+width: 539.2236938476562px;
+margin-left: 77px;
+margin-bottom: 400.75px;
+border-radius: 0px;
+
+}
+
+.err-heading{
+   font-size: 64px;
+   font-weight: 700;
+   height: 190px;
+   width: 586px;
+   margin-left: 118.78px;
+   margin-right:119px;
+   margin-bottom:36px;
+   line-height: 71.09px;
+   color: #333333;
+   letter-spacing: -0.035em;
+}
+
+.err-explanation{
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 36px;
+   letter-spacing: -0.035em;
+   text-align: left;
+   width: 381px;
+   height: 108px;
+   margin-bottom: 64px;
+   margin-right: 323px;
+   margin-left: 119.78px;
+   color: #4F4F4F;
+   letter-spacing: -0.035em;
+}
+
+.err-btn{
+   margin-left: 123.78px;
+   margin-right: 484px;
+   margin-bottom: 349px;
+   background-color: #333333;
+   width: 216px;
+   height: 68px;
+}
+.btn-text{
+   color: #ffffff;
+   font-weight: 700;
+   width: 130px;
+   height: 21px;
+}
+
+@media only screen and (max-width: 678px){
+   .body{
+      font-family: 'Space Mono', monospace;
+      width: 375px;
+      height: 979px;
+
+   }
+
+   .image{
+      width: 286.83px;
+      height: 220.35px;
+      margin-left:44px;
+      margin-right: 44.17px;
+      margin-bottom: 77px;
+   }
+.content{
+   display: block;
+   margin-top: 0px;
+}
+
+.err-heading{
+   margin-left: 24px;
+   margin-right: 1px;
+   width: 350px;
+   height: 152px;
+   font-size: 48px;
+   font-weight: bold;
+   line-height: 71.09px;
+   color: #333333;
+   letter-spacing: -0.035em;
+}
+.err-explanation{
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26.66px;
+   text-align: left;
+   width: 328px;
+   height: 81px;
+   margin-bottom: 66px;
+   margin-right: 24px;
+   margin-left: 23px;
+   color: #4F4F4F;
+   letter-spacing: -0.035em;
+}
+.err-btn{
+   margin-left: 24px;
+   margin-right: 135px;
+   margin-bottom: 155px;
+   background-color: #333333;
+   width: 216px;
+   height: 68px;
+}
+.btn-text{
+   color: #ffffff;
+   font-weight: 700;
+   width: 130px;
+   height: 21px;
+}
+.top{
+   font-family: 'Inconsolata';
+   font-size: 24px;
+   margin-top: 20px;
+   margin-left:24px;
+   margin-right: 218spx;
+   color: #333333;
+   width: 133px;
+   height: 25px;
+   letter-spacing: -0.08em;
+}
+.img-container{
+   margin-top: 64px;
+}
+}
